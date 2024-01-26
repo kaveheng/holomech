@@ -1,5 +1,5 @@
 runtime: python39  # Use the Python version you need
-entrypoint: python app.py
+entrypoint: gunicorn -b :$PORT main:app
 
 handlers:
 - url: /.*
