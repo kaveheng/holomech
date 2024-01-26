@@ -1,5 +1,7 @@
 runtime: python39  # or your Python version
+api_version: 1
+threadsafe: true
 
 handlers:
 - url: /.*
-  script: app.py
+  script: main.app
