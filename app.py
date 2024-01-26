@@ -8,5 +8,5 @@ def calculate_sum():
     sum_result = data['number1'] + data['number2']
     return jsonify({'sum': sum_result})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+ #   app.run(debug=True)
