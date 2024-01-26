@@ -1,5 +1,0 @@
-runtime: python39  # or your Python version
-
-handlers:
-- url: /.*
-  script: app.py
